@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+}
+.first-part{
+    background-color: rgb(211, 235, 211);
+}
+.page-front{
+    padding: 40px;
+    
+}
+.all-button{
+    background-color: rgb(7, 160, 84);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    height: 35px;
+    width: 120px;
+}
+#sing-in{
+    width: 80px;
+    height: 30px;
+    margin-top: 4px;
+}
+span{
+    color: rgb(7, 160, 84);
+}
+.dialog{
+    font-weight: 700;
+}
+.info-icon img{
+    width: 70px;
+    height: 75px;
+}
+section{
+    margin-bottom: 100px;
+}
+.icon-border{
+    border: 4px solid yellowgreen;
+    margin: 20px 30px;
+}
