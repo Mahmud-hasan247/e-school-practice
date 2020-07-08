@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.section{
+    margin-bottom: 100px;
+}
 .logo{
     width: 120px;
     height: 50px;
@@ -20,10 +23,19 @@ body{
     height: 35px;
     width: 120px;
 }
-#sing-in{
+.all-button:hover{
+    width: 130px ;
+    height: 40px;
+
+}
+.sing-in{
     width: 80px;
     height: 30px;
     margin-top: 4px;
+}
+.sing-in:hover{
+    width: 90px;
+    height: 35px;
 }
 span{
     color: rgb(7, 160, 84);
@@ -35,21 +47,6 @@ span{
     width: 70px;
     height: 75px;
 }
-.section{
-    margin-bottom: 100px;
-}
-.man{
-    width: 100px;
-    height: 100px;
-}
-#blog{
-    padding: 80px 300px;
-}
-.info-icon img{
-    width: 70px;
-    height: 75px;
-    }  
-
 .info-box{
     margin: 3px ;
     border-radius: 10px;
@@ -60,22 +57,19 @@ span{
     background-color: white;
     box-shadow: 3px 3px 20px lightgrey;
 }
+.man{
+    width: 100px;
+    height: 100px;
+}
+#blog{
+    padding: 80px 300px;
+}
+.bold{
+    font-weight: 700;
+}
 
 .card-deck img{
     margin: 20px 15px;
-}
-.card{
-    border: none;
-    border-radius: 15px;
-    box-shadow: 5px 5px 20px lightgray;
-}
-.course-img img{
-    margin: 20px 15px;
-
-}
-.one{
-    width: 25px;
-    height: 25px;
 }
 .distance-from-man{
     padding-left: 50px;
@@ -83,6 +77,6 @@ span{
 .last-part{
     background-color: rgba(29, 25, 29, 0.945);
     color: white;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
