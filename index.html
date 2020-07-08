@@ -6,7 +6,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        /* This styles was not working fully in my "style.css" file. taht's why i added those here.*/
+        .card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+.course-img img{
+    margin: 20px 15px;
 
+}
+.one{
+    width: 25px;
+    height: 25px;
+}
+
+    </style>
 </head>
 <body>
     <section class="first-part">
@@ -19,9 +35,9 @@
                 <div class="collapse nav justify-content-end navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Book <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Courses</a>
-                    <a class="nav-item nav-link" href="#">Others</a>
-                    <a class="nav-item nav-link" href="#">Blog</a>
+                    <a class="nav-item nav-link" href="#course">Courses</a>
+                    <a class="nav-item nav-link" href="#other">Others</a>
+                    <a class="nav-item nav-link" href="#blog">Blog</a>
                     <button class="all-button" id="sing-in">Sing in</button>
                   </div>
                 </div>
@@ -47,42 +63,161 @@
     </section>
 
     <section>
-        <div class="container info-icon ">
-            <div class="row ">
-                <div class="col-md-2 icon-border ">
-                    <div>
+        <div class="container info-icon">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
+                    <div class="text-center info-box">
                         <img src="images/ICON/book.png">
-                        <h3>1500+Topic</h3>
+                        <br><br>
+                        <h4>1500+Topic</h4>
                         <p>Learn anythings</p>
                     </div>
                 </div>
-                <div class="col-md-2 icon-border ">
-                    <div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="text-center info-box">
                         <img src="images/ICON/Student.png" alt="">
-                        <h3>1800+Students</h3>
+                        <br><br>
+                        <h4>1800+Students</h4>
                         <p>Learn anythings</p>
                     </div>
                 </div>
-                <div class="col-md-2 icon-border ">
-                    <div >
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="text-center info-box">
                         <img src="images/ICON/Test.png" alt="">
-                        <h3>9k+Test Token</h3>
+                        <br><br>
+                        <h4>9k+Test Token</h4>
                         <p>Learn anythings</p>
                     </div>
                 </div>
-                <div class="col-md-2 icon-border ">
-                    <div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div class="text-center info-box">
                         <img src="images/ICON/Students.png" alt="">
-                        <h3>2000+Students</h3>
+                        <br><br>
+                        <h4>2000+Students</h4>
                         <p>Learn anythings</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    
+
+    <section>
+        <div class="container " id="course">
+            <h2 class="text-center">Online Courses</h2><br><br>
+            <div class="card-deck">
+                <div class="card">
+                  <img class="img-fluid" src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Complete Web Development</h5>
+                    <p class="card-text">Discription</p>
+                    <button class="all-button">Buy Course</button>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-around">
+                    <div>
+                        <img class="img-fluid one" src="images/ICON/calendar.png" alt="">
+                        <small>Start 20 April,2021</small>
+                    </div>
+                    <div>
+                        <img class="img-fluid one" src="images/ICON/people.png" alt=""><small>60 Seats</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="img-fluid" src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">Discription</p>
+                    <button class="all-button">Buy Course</button>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-around">
+                    <div>
+                        <img class="img-fluid one" src="images/ICON/calendar.png" alt="">
+                        <small>Start 20 April,2021</small>
+                    </div>
+                    <div>
+                        <img class="img-fluid one" src="images/ICON/people.png" alt=""><small>60 Seats</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="img-fluid" src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Class-1 to Class-10</h5>
+                    <p class="card-text">Discription</p>
+                    <button class="all-button">Buy Course</button>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-around">
+                    <div>
+                        <img class="img-fluid one" src="images/ICON/calendar.png" alt="">
+                        <small>Start 20 April,2021</small>
+                    </div>
+                    <div>
+                        <img class="img-fluid one" src="images/ICON/people.png" alt=""><small>60 Seats</small>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="blog">
+        <div class="container ">
+            <h2 class="text-center">Testimonial</h2>
+            <br><br><br>
+            <div class="d-flex justify-content-center ">
+                <div>
+                    <img class="man " src="images/Photos/Man.png" alt="">
+                </div>
+                <div class="distance-from-man">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum quo, sint velit laboriosam ea ipsam, ab aspernatur excepturi veritatis id error nisi, ducimus molestias. Sequi quidem dolorum, </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="last-part">
+        <div class="container">
+            <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight"><p>Lorem, ipsum dolor sit amet consectetur adipisicing <br> Dolorem tempore odio aspernatur eveniet cumque quod?</p></div>
+                <div class="p-2 flex-fill bd-highlight">
+                    <h5>Course</h5>
+                    <p>Graphic design</p>
+                    <p>Web design</p>
+                    <p>Marketing</p>
+                    <p>Business</p>
+                    <p>FB Marketing</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight">
+                    <h5>Terms</h5>
+                    <p>Graphic design</p>
+                    <p>Web design</p>
+                    <p>Marketing</p>
+                    <p>Business</p>
+                    <p>FB Marketing</p>
+                </div>
+                <div class="p-2 flex-fill bd-highlight">
+                    <h5>UsefullLinks</h5>
+                    <p>Graphic design</p>
+                    <p>Web design</p>
+                    <p>Marketing</p>
+                    <p>Business</p>
+                    <p>FB Marketing</p>
+                </div>
+              </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <footer class="text-center">
+            <small>copyright by mahmud hasan | 2020 All rights reserves.</small>
+        </footer>
+    
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script></section>
 </body>
 </html>
